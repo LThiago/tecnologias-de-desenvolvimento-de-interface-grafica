@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  /* position: relative; */
+  width: 100%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+
+  color: #ffffff;
+  background-color: #201e1e;
+
+  padding-left: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 30px;
+
+  padding-left: 30px;
+
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+
+  padding-left: 30px;
+
+  margin-bottom: 30px;
+}
+
+ol {
+  list-style: decimal;
+
+  font-size: 18px;
+
+  line-height: 30px;
+
+  padding-left: 50px;
+}
+
+figure {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  padding-left: 30px;
+}
+
+figcaption {
+  font-size: 12px;
+
+  width: 578px;
+  line-height: 12px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+a: {
+  color: #ed3237;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #a02125;
+  text-decoration: underline;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q::before {
+  content: open-quote;
+}
+q::after {
+  content: close-quote;
+}
+
+#uepb-logo {
+  position: static;
+
+  width: 316.23px;
+  height: 100px;
+
+  padding-left: 30px;
+  padding-top: 30px;
+}
