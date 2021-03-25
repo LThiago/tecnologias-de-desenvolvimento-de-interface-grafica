@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   display: inline-block;
-  /* position: relative; */
   width: 100%;
 }
 
@@ -96,4 +95,51 @@ q::after {
 
   padding-left: 30px;
   padding-top: 30px;
+}
+
+form {
+  padding-left: 30px;
+
+  font-size: 18px;
+}
+
+input {
+  outline: none;
+
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-size: 18px;
+
+  height: 20px;
+  width: 200px;
+
+  border-style: solid;
+  border-color: #000000;
+}
+
+.warning-text {
+  display: inline;
+  padding-left: 5px;
+
+  font-size: 14px;
+
+  color: #ed3237;
+}
+
+#login-button {
+  outline: none;
+  padding: 5px 16px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #ed3237;
+
+  border: 0px;
+}
+
+#login-button:hover {
+  background-color: #a02125;
+  /* background-color: #ff3535; */
 }
